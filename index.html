@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotador cartas</title>
+    <style>
+        table, th, td{  border: 1px solid black;}
+        table{width: 90%;  margin-left: auto;
+  margin-right: auto;}
+        input{width: 95;}
+        h6{padding:0%;margin:0%;font-size: 20px;text-align: center;}
+        button{width: 100%;}
+    </style>
+</head>
+<body>
+    <div class="container" id="carioca"></div>
+    <h1 style="text-align: center;">Anotador </h1>
+    <table>
+        <tr><td></td><td colspan="6" style="text-align: center;"> Nombres</td></tr>
+        <tr><td>Juego</td>
+            <td><input type="text" id="j1"></td>
+            <td><input type="text" id="j2"></td>
+            <td><input type="text" id="j3"></td>
+            <td><input type="text" id="j4"></td>
+            <td><input type="text" id="j5"></td>
+            <td><input type="text" id="j6"></td></tr>
+            <tr><td>2 piernas</td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j1-1"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j2-1"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j3-1"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j4-1"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j5-1"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j6-1"></td>
+            </tr>
+            <tr><td>1 escalera y 1 pierna</td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j1-2"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j2-2"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j3-2"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j4-2"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j5-2"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j6-2"></td>
+            </tr>
+            <tr><td>2 escaleras</td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j1-3"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j2-3"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j3-3"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j4-3"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j5-3"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j6-3"></td>
+            </tr>
+            <tr><td>3 piernas</td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j1-4"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j2-4"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j3-4"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j4-4"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j5-4"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j6-4"></td>
+            </tr>
+            <tr><td>2 piernas y 1 escalera</td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j1-5"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j2-5"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j3-5"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j4-5"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j5-5"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j6-5"></td>
+            </tr>
+            <tr><td>2 escalera y 1 pierna</td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j1-6"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j2-6"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j3-6"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j4-6"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j5-6"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j6-6"></td>
+            </tr>
+            <tr><td>3 escaleras (12 cartas)</td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j1-7"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j2-7"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j3-7"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j4-7"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j5-7"></td>
+                <td><input value="0" pattern="[0-9]*" inputmode="numeric" type="text" id="j6-7"></td>
+            </tr>
+            <tr><td>Resultados</td>
+                <td><h6 id="resultados1">0</h6></td>
+                <td><h6 id="resultados2">0</h6></td>
+                <td><h6 id="resultados3">0</h6></td>
+                <td><h6 id="resultados4">0</h6></td>
+                <td><h6 id="resultados5">0</h6></td>
+                <td><h6 id="resultados6">0</h6></td>   
+            </tr>
+            <tr></tr>
+            <tr><td colspan="7"><button onclick="calcularPuntos()"">Calcular</button></td></tr>
+            <tr><td colspan="7"><h6 id="ganador"></h6></td></tr>
+
+
+
+
+    </table>
+</body>
+<script>
+    function calcularPuntos(){
+        let arrayPuntos =[0]
+        suma=0
+        for(let j=1;j<7;j++){
+            
+            for(let i = 1;i <7;i++){    
+            valor = parseInt(document.getElementById("j"+j+"-"+i).value)
+            
+             suma = suma + valor 
+             
+            }
+            arrayPuntos.push(suma)
+            
+        document.getElementById("resultados"+j).innerText = suma
+        
+        
+        suma=0
+
+       
+        
+    }
+    mostrarGanador(arrayPuntos)
+    }
+        
+        function mostrarGanador(array){
+            let ganador
+            arrayJugadores = [0]
+          for (let i = 1;i<7;i++){
+              
+              let jugador = document.getElementById("j"+i).value
+              
+              arrayJugadores.push(jugador)
+        }
+        console.log(arrayJugadores)
+            
+            let menor = Math.min(...array)
+            let indice = array.indexOf(menor)
+            ganador = arrayJugadores[indice]
+            
+            
+            
+             
+
+            document.getElementById("ganador").innerText = `La persona con menos puntos es ${ganador}`   
+            }
+        
+        
+    
+</script>
+</html>
